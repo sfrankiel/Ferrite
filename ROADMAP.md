@@ -12,6 +12,26 @@ These issues cannot be fixed without replacing egui's built-in text editor:
 
 ## Planned Features 🚀
 
+### v0.2.2 (Planned) - Performance & Stability
+
+> **Status:** In Progress
+
+A focused release addressing performance issues with large files and fixing stability bugs.
+
+#### Bug Fixes
+- [ ] **UTF-8 crash in tree viewer** - Fix string slicing panic when displaying JSON/YAML strings containing multi-byte characters (Norwegian øæå, Chinese, emoji, etc.)
+
+#### Performance Optimizations
+- [ ] **Large file performance** - Reduce lag when editing 5000+ line files with syntax highlighting enabled
+- [ ] **Syntax highlighting optimization** - Incremental re-highlighting, viewport-only rendering, or caching strategies
+- [ ] **Scroll performance** - Smoother scrolling in large documents
+
+#### Mermaid Improvements
+- [ ] **Rendering performance** - Optimize mermaid.rs for complex diagrams
+- [ ] **Code cleanup** - Address unused code warnings, improve modularity
+
+---
+
 ### v0.3.0 (Planned) - Mermaid Crate + Editor Improvements
 
 > **Status:** Planning  
