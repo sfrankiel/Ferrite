@@ -7,6 +7,8 @@ A fast, lightweight text editor for Markdown, JSON, YAML, and TOML files. Built 
 
 > ⚠️ **Platform Note:** Ferrite has been primarily developed and tested on **Windows**. While it should work on Linux and macOS, these platforms have not been extensively tested. If you encounter issues, please [report them](https://github.com/OlaProeis/Ferrite/issues).
 
+> 🤖 **AI Disclosure:** This project is 100% AI-generated code. All Rust code, documentation, and configuration was written by Claude (Anthropic) via [Cursor](https://cursor.com) with MCP tools. My role is product direction, testing, and learning to orchestrate AI-assisted development effectively. The code is reviewed and tested, not blindly accepted — but I want to be transparent about the development process. This project is partly a learning exercise in exploring how far AI-assisted development can go.
+
 ## Screenshots
 
 | Raw Editor | Rendered View |
@@ -273,8 +275,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
+### Libraries
 - [egui](https://github.com/emilk/egui) - Immediate mode GUI library for Rust
 - [comrak](https://github.com/kivikakk/comrak) - CommonMark + GFM compatible Markdown parser
 - [syntect](https://github.com/trishume/syntect) - Syntax highlighting library
 - [git2](https://github.com/rust-lang/git2-rs) - libgit2 bindings for Rust
 - [Inter](https://rsms.me/inter/) and [JetBrains Mono](https://www.jetbrains.com/lp/mono/) fonts
+
+### Development Tools
+- [Claude](https://anthropic.com) (Anthropic) - AI assistant that wrote the code
+- [Cursor](https://cursor.com) - AI-powered code editor
+- [Task Master](https://github.com/eyaltoledano/claude-task-master) - AI task management for development workflows
